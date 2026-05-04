@@ -13,3 +13,4 @@
 ### Gestion de base de données
 
 - Utilisation de MySQL pour stocker et gérer les données de géolocalisation (positions, coordonnées, suivi en temps réel)
+- Acquisition de valeur réel pour le projet de chauffe eau solaire

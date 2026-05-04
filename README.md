@@ -8,6 +8,7 @@
 - Notions de cybersécurité (sécurisation de base, bonnes pratiques)
 - Utilisation d’outils de diagnostic réseau
 - Virtualisation : gestion de machines virtuelles à distance
+## BAC Technologie STi2D 1ère et 2ème année (Système d'Information et Numérique)
 
 ### Gestion de base de données
 

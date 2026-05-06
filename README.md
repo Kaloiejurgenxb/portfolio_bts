@@ -1,64 +1,54 @@
-# KALOIE JURGEN
+# Jurgen Kaloie
 
-Étudiant en 1ère année BTS CIEL  
-Cybersécurité, Informatique et Réseaux, Électronique  
-
-## Contact
-Téléphone : +687 96 99 86  
-Email : kaloiejurgen114@gmail.com  
-
-## Compétences
-
-### Réseaux et systèmes
-- Bases des réseaux informatiques : adressage IP, architecture client/serveur  
-- Protocoles réseau : TCP/IP, DNS, HTTP  
-- Utilisation d’outils de diagnostic réseau  
-- Maintenance des équipements informatiques  
-
-### Informatique et programmation
-- Programmation : Python, Arduino, PHP, HTML  
-- Création et gestion de bases de données (MySQL, phpMyAdmin)  
-- Développement d’interfaces simples pour le traitement de données  
-
-### Virtualisation et environnements
-- Utilisation de machines virtuelles (Linux, Windows)  
-- Gestion de machines virtuelles à distance  
-
-### Cybersécurité
-- Notions de base en sécurisation des systèmes  
-- Application des bonnes pratiques de sécurité  
+Étudiant en BTS CIEL (Cybersécurité, Informatique et Réseaux, Électronique)  
+Intéressé par les réseaux, la cybersécurité et le développement informatique.
 
 ---
 
-## Expérience
+## Profil
 
-Stage de découverte – Lycée Pétro Attiti (2022)  
-- Maintenance des outils numériques  
-- Installation de logiciels  
+Étudiant en informatique avec des bases solides en réseaux et en programmation.  
+Je m'intéresse particulièrement à la cybersécurité et à l’administration des systèmes.  
+Je cherche à développer mes compétences à travers des projets concrets et des expériences professionnelles.
+
+---
+
+## Compétences
+
+### Informatique
+- Programmation : Python, Arduino, PHP, HTML  
+- Bases de données : MySQL, phpMyAdmin  
+- Traitement et exploitation de données  
+
+### Réseaux
+- Adressage IP, architecture client/serveur  
+- Protocoles : TCP/IP, DNS, HTTP  
+- Diagnostic et maintenance réseau  
+
+### Systèmes
+- Installation et configuration de postes informatiques  
+- Utilisation de machines virtuelles (Linux, Windows)  
+
+### Cybersécurité
+- Notions de sécurisation des systèmes  
+- Bonnes pratiques de sécurité  
 
 ---
 
 ## Formation
 
-### BTS CIEL – 1ère année (en cours)
-- Compétences en réseaux, cybersécurité et systèmes  
-
-### Baccalauréat STI2D – Spécialité SIN
-- Gestion de bases de données avec MySQL  
-- Exploitation de données de géolocalisation (suivi en temps réel)  
-- Projet : acquisition et traitement de données pour un chauffe-eau solaire  
-
-### Collège de Normandie
-Diplôme National du Brevet  
+BTS CIEL – 1ère année (en cours)  
+Baccalauréat STI2D – Systèmes d’Information et Numérique  
 
 ---
 
-## Langues
-- Français  
-- Anglais (niveau B1)  
-- Japonais (niveau A2)  
+## Objectif
+
+Rechercher un stage ou une opportunité dans le domaine des réseaux, de la cybersécurité ou du développement informatique afin de renforcer mes compétences.
 
 ---
 
-## Centres d’intérêt
-Futsal, cricket, volleyball, agriculture
+## Contact
+
+Email : kaloiejurgen114@gmail.com  
+Téléphone : +687 96 99 86  

@@ -1,8 +1,9 @@
+```cpp
 #include <WiFi.h>
 #include <WebServer.h>
 
 const char* ssid = "TON_WIFI";
-const char* password = "TON_MDP";
+const char* password = "*****";
 
 WebServer server(80);
 
@@ -10,6 +11,7 @@ int led = 25;
 int buzzer = 26;
 
 void setup() {
+
   Serial.begin(115200);
 
   pinMode(led, OUTPUT);
@@ -21,6 +23,10 @@ void setup() {
     delay(500);
   }
 
+  Serial.print("IP ESP32 : ");
+  Serial.println(WiFi.localIP());
+
+  // Routes HTTP
   server.on("/ledon", []() {
     digitalWrite(led, HIGH);
     server.send(200, "text/plain", "LED ON");
@@ -47,3 +53,4 @@ void setup() {
 void loop() {
   server.handleClient();
 }
+```

@@ -10,14 +10,7 @@ Il permet :
 - le stockage sur serveur PHP
 - l’affichage sur une page web
 
-# Matériel
-## câble
-
-### LED
-- La LED est connectée à la broche GPIO 25 de l’ESP32 avec une résistance de protection de 220Ω.
-
-### Buzzer
-- Le buzzer est connecté à la broche GPIO 26 afin de produire un signal sonore.
+# TP1 – ESP32 : envoyer des valeur random sur un site web
 
 # 1. Connexion Wi-Fi + affichage de l’adresse IP
 
@@ -213,7 +206,14 @@ if (file_exists("valeur.txt")) {
 
 - L’ESP32 agit comme un serveur web et reçoit des commandes depuis un navigateur.
 
+# Matériel
+## câble
 
+### LED
+- La LED est connectée à la broche GPIO 25 de l’ESP32 avec une résistance de protection de 220Ω.
+
+### Buzzer
+- Le buzzer est connecté à la broche GPIO 26 afin de produire un signal sonore.
 
 # 1. Connexion Wi-Fi + serveur Web
 

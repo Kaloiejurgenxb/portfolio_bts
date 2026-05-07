@@ -230,7 +230,7 @@ L’ESP32 :
 #include <WebServer.h>
 
 const char* ssid = "TON_WIFI";
-const char* password = "TON_MDP";
+const char* password = "*****";
 
 WebServer server(80);
 
@@ -283,7 +283,6 @@ void loop() {
 ```
 
 
-
 # 2. Interface Web (HTML + JavaScript)
 
 ## Fonctionnement
@@ -314,8 +313,6 @@ Une page web envoie des requêtes HTTP GET vers l’ESP32 pour contrôler les co
 </body>
 </html>
 ```
-
----
 
 # 3. Fonctionnement des requêtes (GET)
 

@@ -110,7 +110,7 @@ void loop() {
 }
 ```
 
----
+
 
 # 3. Récupération des données (GET)
 
@@ -209,7 +209,7 @@ if (file_exists("valeur.txt")) {
 # TP2 – ESP32 : Contrôle d’actionneurs via serveur Web
 
 ## Description
-- Ce TP permet de contrôler des composants (LED et buzzer) à distance via une page web, en utilisant une carte :contentReference[oaicite:0]{index=0}.
+- Ce TP permet de contrôler des composants (LED et buzzer) à distance via une page web, en utilisant une carte une carte ESP32.
 
 - L’ESP32 agit comme un serveur web et reçoit des commandes depuis un navigateur.
 

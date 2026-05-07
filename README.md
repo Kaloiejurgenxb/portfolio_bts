@@ -67,7 +67,7 @@ La méthode POST envoie des données dans le corps de la requête HTTP vers un f
 #include <HTTPClient.h>
 
 const char* ssid = "VOTRE_WIFI";
-const char* password = "VOTRE_MOT_DE_PASSE";
+const char* password = "*****";
 
 const char* serverName = "http://192.168.1.100/data.php";
 

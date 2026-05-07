@@ -1,11 +1,11 @@
-# 1. Affichage de l'adresse IP et connecte la carte ESP32 à internet
-```cpp
 #include <WiFi.h>
 #include <HTTPClient.h>
 
+// Wi-Fi
 const char* ssid = "VOTRE_WIFI";
-const char* password = "VOTRE_MOT_DE_PASSE";
+const char* password = "******";
 
+// Serveur
 const char* serverName = "http://192.168.1.100/data.php";
 
 void setup() {
@@ -14,8 +14,43 @@ void setup() {
 
   WiFi.begin(ssid, password);
 
+  Serial.print("Connexion au Wi-Fi");
+
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
+    Serial.print(".");
   }
+
+  Serial.println("\nWi-Fi connecté !");
+
+  Serial.print("Adresse IP : ");
+  Serial.println(WiFi.localIP());
 }
-```
+
+void loop() {
+
+  if (WiFi.status() == WL_CONNECTED) {
+
+    HTTPClient http;
+
+    int valeur = random(10, 100);
+
+    http.begin(serverName);
+
+    http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    String data = "valeur=" + String(valeur);
+
+    int code = http.POST(data);
+
+    Serial.print("Valeur envoyée : ");
+    Serial.println(valeur);
+
+    Serial.print("Code HTTP : ");
+    Serial.println(code);
+
+    http.end();
+  }
+
+  delay(5000);
+}

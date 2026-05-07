@@ -1,3 +1,5 @@
+# 1. Affichage de l'adresse IP et connecte la carte ESP32 à internet
+```cpp
 #include <WiFi.h>
 #include <HTTPClient.h>
 
@@ -16,3 +18,4 @@ void setup() {
     delay(1000);
   }
 }
+```
